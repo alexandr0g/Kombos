@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Vertical Sliding Accordion with jQuery</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Vertical Sliding Accordion with jQuery" />
+  <meta name="keywords" content="jquery, accordion, sliding, vertical, css3, hover, animation, slide, navigation" />
+  <meta name="author" content="Codrops" />
+  <!-- Style for the demo page -->
+  <link rel="stylesheet" type="text/css" href="css/demo.css">
+  <!-- Style of the component -->
+  <link rel="stylesheet" type="text/css" href="css/style2.css">
+  <noscript>
+    <link rel="stylesheet" type="text/css" href="css/styleNoJS.css">
+  </noscript>
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow&amp;v1" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&amp;v2" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="sucontainer">
+  <div class="container" style="margin:0px;">
+    <div id="va-accordion" class="va-container" style="margin-top:0px;">
+      <div class="va-nav">
+        <span class="va-nav-prev" style="top:10px;">Previous</span>
+        <span class="va-nav-next" style="bottom:10px;">Next</span>
+      </div>
+      <div class="va-wrapper">
+        <div class="va-slice va-slice-1">
+          <h3 class="va-title">CAFE</h3>
+          <div class="va-content">
+            <p>Presentacion</p>
+            <ul>
+              <li><a href="#">mini 300$</a></li>
+              <li><a href="#">medium 500$</a></li>
+              <li><a href="#">max 700$</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="va-slice va-slice-2">
+          <h3 class="va-title">CHOCOLATE</h3>
+          <div class="va-content">
+            <p>Presentacion</p>
+            <ul>
+              <li><a href="#">mini 300$</a></li>
+              <li><a href="#">medium 500$</a></li>
+              <li><a href="#">max 700$</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="va-slice va-slice-3">
+          <h3 class="va-title">AVENA</h3>
+          <div class="va-content">
+            <p>Presentacion</p>
+            <ul>
+              <li><a href="#">mini 300$</a></li>
+              <li><a href="#">medium 500$</a></li>
+              <li><a href="#">max 700$</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="va-slice va-slice-4">
+          <h3 class="va-title">MALTEADA</h3>
+          <div class="va-content">
+            <p>Presentacion</p>
+            <ul>
+              <li><a href="#">mini 300$</a></li>
+              <li><a href="#">medium 500$</a></li>
+              <li><a href="#">max 700$</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="va-slice va-slice-5">
+          <h3 class="va-title">JUGOS</h3>
+          <div class="va-content">
+            <p>Presentacion</p>
+            <ul>
+              <li><a href="#">mini 300$</a></li>
+              <li><a href="#">medium 500$</a></li>
+              <li><a href="#">max 700$</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="titulo3">BEBIDA</div>
+  </div>
+  <div class="container" style="margin:0px;">
+   <div id="va-accordion2" class="va-container" style="margin-top:0px;">
+      <div class="va-nav"> <span class="va-nav-prev" style="top:10px;">Previous</span>
+        <span class="va-nav-next" style="bottom:10px;">Next</span> </div>
+      <div class="va-wrapper">
+        <div class="va-slice va-slice1-1">
+          <h3 class="va-title">ALMOJABANA</h3>
+          <div class="va-content">
+            <p>PORCION</p>
+            <ul>
+              <li><a href="#">mini 300$</a></li>
+              <li><a href="#">medium 500$</a></li>
+              <li><a href="#">max 700$</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="va-slice va-slice1-2">
+          <h3 class="va-title">PAN FRESCO</h3>
+          <div class="va-content">
+            <p>PORCION</p>
+            <ul>
+              <li><a href="#">mini 300$</a></li>
+              <li><a href="#">medium 500$</a></li>
+              <li><a href="#">max 700$</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="va-slice va-slice1-3">
+          <h3 class="va-title">ENVUELTO</h3>
+          <div class="va-content">
+            <p>PORCION</p>
+            <ul>
+              <li><a href="#">mini 300$</a></li>
+              <li><a href="#">medium 500$</a></li>
+              <li><a href="#">max 700$</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="va-slice va-slice1-4">
+          <h3 class="va-title">QUIMBOLITO</h3>
+          <div class="va-content">
+            <p>PORCION</p>
+            <ul>
+              <li><a href="#">mini 300$</a></li>
+              <li><a href="#">medium 500$</a></li>
+              <li><a href="#">max 700$</a></li>
+            </ul>
+          </div>
+        </div>
+           <div class="va-slice va-slice1-5">
+          <h3 class="va-title">EMPANADA</h3>
+          <div class="va-content">
+            <p>PORCION</p>
+            <ul>
+              <li><a href="#">mini 300$</a></li>
+              <li><a href="#">medium 500$</a></li>
+              <li><a href="#">max 700$</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="titulo3">ACOMPAÑANTE</div>
+    </div>
+    </div>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="js/jquery.vaccordion.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('#va-accordion').vaccordion({
+        accordionW: $(window).width()*.5,
+        accordionH: $(window).height()*.95,
+        visibleSlices: 5,
+        expandedHeight: 450,
+        animOpacity: 0.1,
+        contentAnimSpeed: 100
+      });
+    });
+    $(function() {
+      $('#va-accordion2').vaccordion({
+        accordionW: $(window).width()*.5,
+        accordionH: $(window).height()*.95,
+        visibleSlices: 5,
+        expandedHeight: 450,
+        animOpacity: 0.1,
+        contentAnimSpeed: 100
+      });
+    });
+    
+  </script>
+     <script type="text/javascript">
+        $(window).resize(function(){ location.reload(); });
+    </script>
+</body>
+
+</html>

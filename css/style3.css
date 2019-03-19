@@ -1,0 +1,56 @@
+/* BACKGROUNDS */
+
+.va-slice-1 {
+    background: #000 url(../images/6-1.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+.va-slice-2 {
+    background: #000 url(../images/6-2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.va-slice-3 {
+    background: #000 url(../images/6-3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.va-slice-4 {
+    background: #000 url(../images/6-4.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.va-slice-5 {
+    background: #000 url(../images/6-5.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+.va-slice1-1 {
+    background: #000 url(../images/2-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.va-slice1-2 {
+    background: #000 url(../images/7-2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.va-slice1-3 {
+    background: #000 url(../images/2-2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.va-slice1-4 {
+    background: #000 url(../images/7-4.jpg) no-repeat center center;
+    background-size: cover;
+}
+.va-slice1-5 {
+    background: #000 url(../images/7-5.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.va-slice-false {
+    background: #000 url(../images/0-0.jpg) no-repeat center center;
+    background-size: cover;
+}
